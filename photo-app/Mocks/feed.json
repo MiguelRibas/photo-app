@@ -1,0 +1,64 @@
+
+[
+    {
+        "imageProfileCard": "profile1",
+        "userNameCard": "mik_lldb",
+        "locationCard": "Fernando de Noronha, Brazil",
+        "timeCountCard": "2 minutes ago",
+        "imagePostedCard": "profile1",
+        "iconHeartLikesCard": "heart",
+        "iconHeartCountCard": 70,
+        "comentsIconCard": "bubble.right",
+        "comentsCountCard": 13
+        
+    },
+    {
+        "imageProfileCard": "profile2",
+        "userNameCard": "gossipgrl",
+        "locationCard": "Egypt",
+        "timeCountCard": "30 minutes ago",
+        "imagePostedCard": "saara",
+        "iconHeartLikesCard": "heart",
+        "iconHeartCountCard": 156,
+        "comentsIconCard": "bubble.right",
+        "comentsCountCard": 10
+        
+    },
+    {
+        "imageProfileCard": "profile3",
+        "userNameCard": "carsonT",
+        "locationCard": "São Paulo, Brazil",
+        "timeCountCard": "32 minutes ago",
+        "imagePostedCard": "guitars",
+        "iconHeartLikesCard": "heart",
+        "iconHeartCountCard": 30,
+        "comentsIconCard": "bubble.right",
+        "comentsCountCard": 2
+       
+    },
+    {
+        "imageProfileCard": "profile4",
+        "userNameCard": "mmshotzz",
+        "locationCard": "Norway",
+        "timeCountCard": "49 minutes ago",
+        "imagePostedCard": "mountains",
+        "iconHeartLikesCard": "heart",
+        "iconHeartCountCard": 16,
+        "comentsIconCard": "bubble.right",
+        "comentsCountCard": 5
+       
+    },
+    {
+       
+       "imageProfileCard": "profile5",
+        "userNameCard": "terriblekl0ud",
+        "locationCard": "New York, United States",
+        "timeCountCard": "59 minutes ago",
+        "imagePostedCard": "city",
+        "iconHeartLikesCard": "heart",
+        "iconHeartCountCard": 10,
+        "comentsIconCard": "bubble.right",
+        "comentsCountCard": 1
+    }
+]
+
