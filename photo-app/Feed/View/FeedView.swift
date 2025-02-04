@@ -10,6 +10,7 @@ import SwiftUI
 struct FeedView: View {
     
     @StateObject private var viewModel = FeedViewModel()
+    @State var show: Bool = false
     
     var body: some View {
         ZStack {
@@ -18,16 +19,8 @@ struct FeedView: View {
                     .padding(.bottom, 15)
                 VStack {
                     ScrollView {
-                        ForEach(viewModel.model, id: \.userNameCard) { index in
-                            CardView(imageProfileCard: index.imageProfileCard,
-                                     userNameCard: index.userNameCard,
-                                     locationCard: index.locationCard,
-                                     timeCountCard: index.timeCountCard,
-                                     imagePostedCard: index.imagePostedCard,
-                                     iconHeartLikesCard: index.iconHeartLikesCard,
-                                     iconHeartCountCard: index.iconHeartCountCard,
-                                     comentsIconCard: index.comentsIconCard,
-                                     comentsCountCard: index.comentsCountCard)
+                        ForEach(viewModel.model, id: \.userNameCard) { model in
+                            CardView(model: model, show: self.$show)
                                 .padding(.bottom, 24)
                         }
                     }
@@ -35,7 +28,7 @@ struct FeedView: View {
             }
         }
         .onAppear {
-            viewModel.loadFeedData()
+            viewModel.fetchFeed()
         }
     }
 }

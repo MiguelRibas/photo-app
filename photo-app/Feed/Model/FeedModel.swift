@@ -7,14 +7,15 @@
 
 import Foundation
 
-struct FeedModel: Codable {
-    var imageProfileCard: String
-    var userNameCard: String
-    var locationCard: String
-    var timeCountCard: String
-    var imagePostedCard: String
-    var iconHeartLikesCard: String
-    var iconHeartCountCard: Int
-    var comentsIconCard: String
-    var comentsCountCard: Int
+struct FeedModel: Codable, Identifiable {
+    let id = UUID()
+    let imageProfileCard: String
+    let userNameCard: String
+    let locationCard: String
+    let timeCountCard: String
+    let imagePostedCard: String
+    let iconHeartLikesCard: String
+    let iconHeartCountCard: Int
+    let comentsIconCard: String
+    let comentsCountCard: Int
 }
